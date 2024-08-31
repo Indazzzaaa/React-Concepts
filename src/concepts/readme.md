@@ -3,10 +3,10 @@
 - **1. Components**
 
   - Class Components ✅
-  - Functional Components
-  - How to style components.
-  - Component Purity/ Pure Function.
-  - Strict Mode
+  - Functional Components ✅
+  - How to style components. : `inline styles, external css file, tailwind.`
+  - Component Purity/ Pure Function : `given the same inputs, always returns the same output, does not produce side-effects like modifying external variables or making network requests. In context of component only rely on its props and state to determine its output(i.e. the jsx it returns), and does not modify any external state or variables, or trigger side effects like network requests or DOM manipulation inside the render method.`
+  - Strict Mode : `it's a wrapper component which helps to identify any potential problems in an application during development.`
 - Components Basics
   **Note :** Name of file must be PascalCase. Then only transpiler will convert the jsx to js. And name of  component must be descriptive eg. ProductList ✅ , List ❌
 
