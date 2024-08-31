@@ -1,25 +1,25 @@
 # Topics
 
-- **1. Components**
+- 1. **Components ✅**
 
-  - Class Components ✅
-  - Functional Components ✅
+  - Class Components
+  - Functional Components
   - How to style components. : `inline styles, external css file, tailwind.`
   - Component Purity/ Pure Function : `given the same inputs, always returns the same output, does not produce side-effects like modifying external variables or making network requests. In context of component only rely on its props and state to determine its output(i.e. the jsx it returns), and does not modify any external state or variables, or trigger side effects like network requests or DOM manipulation inside the render method.`
   - Strict Mode : `it's a wrapper component which helps to identify any potential problems in an application during development.`
-- Components Basics
-  **Note :** Name of file must be PascalCase. Then only transpiler will convert the jsx to js. And name of  component must be descriptive eg. ProductList ✅ , List ❌
+- 2. **Components Basics✅**
+     **Note :** Name of file must be PascalCase. Then only transpiler will convert the jsx to js. And name of  component must be descriptive eg. ProductList ✅ , List ❌
 
   - JSX
     - What is transpillers and polyfills.
     - How to write multiline jsx.
-    - Fragments
+    - [Fragments](https://react.dev/reference/react/Fragment), [Profiler](https://react.dev/reference/react/Profiler), [StrictMode](https://react.dev/reference/react/StrictMode), [Suspense](https://react.dev/reference/react/Suspense)
   - Props vs State
     - How react updates it's state, what checks it does for primitives and for reference types?
     - What is children prop
   - Conditional Rendering
-  - Composition
-- Rendering
+  - Thinking in terms of UI and Composition
+- 3. **Rendering**
 
   - Component Life cycle
   - Lists and Keys
@@ -30,7 +30,7 @@
     - Event Daligation.
   - Higher Order Components
     - React.memo
-- Hooks
+- [Hooks](https://react.dev/reference/react/hooks)
 
   - What are side effects?
   - Mostly Used : useState, useReducer, useRef, useContext, useMemo, useID
@@ -42,6 +42,7 @@
   - what are refs hooks and how to pass ref in other component(forward ref).
   - How to handle and validate forms
   - React Hook Forms
+  - Vlidating Forms using ZOD.
 - Context API's
 - Portals
 - Suspense
