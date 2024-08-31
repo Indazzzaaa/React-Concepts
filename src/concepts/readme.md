@@ -2,7 +2,7 @@
 
 - **1. Components**
 
-  - Class Components
+  - Class Components ✅
   - Functional Components
   - How to style components.
   - Component Purity/ Pure Function.

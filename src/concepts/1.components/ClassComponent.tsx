@@ -86,7 +86,7 @@ class ClassComponent extends Component<UserProfileProps, UserProfileState>{
 
      return (
         <div>
-            <h1 className="text-2xl">User Profile</h1>
+            <h1 className="text-2xl">User Profile : Class Component</h1>
             <p>Name: {user?.name}</p>
             <p>Age: {user?.age}</p>
             <p>Email: {user?.email}</p>
