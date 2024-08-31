@@ -1,6 +1,6 @@
 # Topics
 
-- Components
+- **1. Components**
 
   - Class Components
   - Functional Components
@@ -8,10 +8,11 @@
   - Component Purity/ Pure Function.
   - Strict Mode
 - Components Basics
+  **Note :** Name of file must be PascalCase. Then only transpiler will convert the jsx to js. And name of  component must be descriptive eg. ProductList ✅ , List ❌
 
   - JSX
     - What is transpillers and polyfills.
-    - How to write multiline jsx
+    - How to write multiline jsx.
     - Fragments
   - Props vs State
     - How react updates it's state, what checks it does for primitives and for reference types?
@@ -34,6 +35,8 @@
   - What are side effects?
   - Mostly Used : useState, useReducer, useRef, useContext, useMemo, useID
   - Other Remaining.
+  - Creating custom hooks.
+    - **Note :** when naming custom hooks, use camelCase but always prefix the name with `use` eg. `useFetchData`.
 - Controlled / UnControlled Components
 
   - what are refs hooks and how to pass ref in other component(forward ref).
