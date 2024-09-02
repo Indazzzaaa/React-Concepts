@@ -17,9 +17,10 @@
   - Props vs State
     - How react updates it's state, what checks it does for primitives and for reference types?
     - What is children prop
+    - what is props drilling.
   - Conditional Rendering
   - Thinking in terms of UI and Composition
-- 3. **Rendering**
+- 3. **Rendering ✅**
 
   - Component Life cycle
   - Lists and Keys
@@ -30,7 +31,7 @@
     - Event Daligation.
   - Higher Order Components
     - React.memo
-- [Hooks](https://react.dev/reference/react/hooks)
+- [4. Hooks](https://react.dev/reference/react/hooks) ✅
 
   - What are side effects?
     - What are effects and how to use `useEffect` hooks.
