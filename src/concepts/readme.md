@@ -27,6 +27,7 @@
   - Render Props
   - Events
     - How event system works in React-JS.
+    - How js handles event
     - Synthetic Event, Event Propogation and Event Bubbling and how to stop propogation ?
     - Event Daligation.
   - Higher Order Components
@@ -39,10 +40,12 @@
   - Other Remaining.
   - Creating custom hooks.
     - **Note :** when naming custom hooks, use camelCase but always prefix the name with `use` eg. `useFetchData`.
-- Controlled / UnControlled Components
+- 5. Controlled / UnControlled Components ✅
 
-  - what are refs hooks and how to pass ref in other component(forward ref).
+  - How to create controlled and uncontrolled forms
+    - what are refs hooks and how to pass ref in other component(forward ref).
   - How to handle and validate forms
+    - What are actions we can do on form eg. submit, reset etc.
   - React Hook Forms
   - Vlidating Forms using ZOD.
 - Context API's
@@ -68,5 +71,7 @@
 
   - Unit Testing : vitest.
   - Component Testing : React-testing library.
+
+  Info : We have used `shadcn` for UI and `react-icons` for icons
 
 ## See what's new in latest version of React ?

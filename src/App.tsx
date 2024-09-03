@@ -1,9 +1,9 @@
-import FunctionalComponent from "./concepts/1.components/FunctionalComponent"
+import ReactHookForms from "./concepts/5. controlled-uncontrolled/ReactHookForms"
 
 const App = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-slate-700 text-slate-300">
-      <FunctionalComponent />
+    <div className="min-h-screen flex justify-center items-center bg-slate-700">
+      <ReactHookForms  />
     </div>
   )
 }
