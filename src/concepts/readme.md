@@ -48,8 +48,8 @@
     - What are actions we can do on form eg. submit, reset etc.
   - React Hook Forms
   - Vlidating Forms using ZOD.
-- 6. Context API's
-- Portals
+- 6. Context API's ✅
+- 7. Portals ✅
 - Suspense
 - Error Boundaries
 - Fetching API Data
