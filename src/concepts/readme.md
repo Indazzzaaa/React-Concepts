@@ -27,7 +27,7 @@
   - Render Props
   - Events
     - How event system works in React-JS.
-    - How js handles event
+    - How js handles event5
     - Synthetic Event, Event Propogation and Event Bubbling and how to stop propogation ?
     - Event Daligation.
   - Higher Order Components
@@ -48,7 +48,7 @@
     - What are actions we can do on form eg. submit, reset etc.
   - React Hook Forms
   - Vlidating Forms using ZOD.
-- Context API's
+- 6. Context API's
 - Portals
 - Suspense
 - Error Boundaries
