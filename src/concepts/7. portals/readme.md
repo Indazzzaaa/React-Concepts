@@ -20,4 +20,3 @@ Even though the portal renders outside the DOM hierarchy,  **event bubbling stil
 ### This how to create portal
 
 - Syntex : `ReactDOM.createPortal(child, container); child : The react Node to render, container: The DOM element where the portal will be rendered.`
--

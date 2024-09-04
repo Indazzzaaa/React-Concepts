@@ -1,10 +1,9 @@
-import MyApp from "./concepts/6. context-api/ContextUsage"
-import PortalExample from "./concepts/7. portals/PortalExample"
+import ErrorBoundaryInAction from "./concepts/8. suspence and error boundaries/ErrorBoundariesInAction"
 
 const App = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-slate-700">
-      <PortalExample />
+      <ErrorBoundaryInAction />
     </div>
   )
 }

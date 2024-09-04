@@ -50,8 +50,7 @@
   - Vlidating Forms using ZOD.
 - 6. Context API's ✅
 - 7. Portals ✅
-- Suspense
-- Error Boundaries
+- 8. Suspense and Error Boundaries
 - Fetching API Data
 
   - Using Fetch : And how to pass data and what is its limitation.
